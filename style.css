@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: "Noto Sans", sans-serif; /* Use the desired font */
+    background-color: white; /* Sets the background color to white */
+    color: black; /* Sets the text color to black */
+    font-size: 18px; /* Set the base font size */
+    margin: 0; /* Remove default margin */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Ensure navbar has a white background */
+}
+
+/* Navbar logo styles */
+.logo .google {
+    height: 250px; /* Increase the size of the Google logo */
+}
+
+/* Control section styles */
+.control-section {
+    padding: 40px; /* Increase padding for larger overall spacing */
+    font-size: 20px; /* Increase the base font size for larger text */
+}
+
+.control-section label {
+    margin-right: 15px; /* Increase spacing between label and input */
+}
+
+.control-section input[type="text"], 
+.control-section button {
+    padding: 15px 30px; /* Increase padding for larger input and button sizes */
+    margin: 15px 0; /* Increase margin for more space around the elements */
+    font-size: inherit; /* Inherit font-size from .control-section */
+    border: 2px solid #ccc; /* Slightly thicker border for better visibility */
+}
+
+/* Increase specific styles for Emergency Stop button for better visibility */
+#emergencyStopButton {
+    background-color: red;
+    color: white;
+    border: none; /* No border for the emergency button */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Run Time display styles */
+#runtimeDisplay {
+    font-weight: bold;
+    font-size: 1.25em; /* Slightly larger font size for run time display */
+}
+
+/* ... your existing styles ... */
+
+/* Main content styles */
+.main-content {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 40px;
+}
+
+.control-section {
+    /* ... your existing .control-section styles ... */
+    margin-right: 20px; /* Add space between the control section and the image */
+}
+
+.image-section img {
+    height: auto; /* Maintain aspect ratio */
+    width: 800px; /* Example width, adjust as needed */
+    /* Add additional styling as needed */
+}
+
+.image-section graph{
+    width: 1000px;
+}
+.graph {
+    width: 500px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+}
